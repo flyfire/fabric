@@ -19,6 +19,7 @@
 {% else %}
 	<h2 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h2>
 	<div class="entry-content">{{ content }}</div>
+    <div class="entry-content"><center>除非另有声明，本网站采用<a href="http://creativecommons.org/licenses/by/3.0/cn/" rel="license">知识共享“署名 3.0 中国大陆”许可协议</a>授权。</center></div>
 {% endif %}
 <div class="meta">
 	{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
